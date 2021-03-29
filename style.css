@@ -5,24 +5,24 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.info-for-user {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.info-for-user img {
   width: 100%;
 }
 
-.aaa .more-inf {
+.info-for-user .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .aaa {text-align: center;
+  .info-for-user {text-align: center;
   }
 
 }
@@ -157,7 +157,7 @@ button.delete img:hover {
 
 /* Completed */
 ul#completed-tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
