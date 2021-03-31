@@ -5,7 +5,8 @@
     font-family: Lato, sans-serif;
   }
   
-  .info {
+  .info,
+  .info-content {
     width: 500px;
     margin: 0 auto;
     display: block;
@@ -14,6 +15,10 @@
   
   .info-pic {
     width: 100%;
+  }
+
+  .content-name {
+      display: none;
   }
   
   .info 
