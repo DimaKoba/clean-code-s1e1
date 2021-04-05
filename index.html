@@ -9,37 +9,37 @@
 
 <body class="main-page">
   <header class="info">
-    <figure class="info-content">
-      <img class="info-pic" src="./eisenhower-matrix.jpg" alt="Eisenhower's Matrix">
-      <figcaption class="content-name">Eisenhower's Matrix</figcaption>
+    <figure class="info__content">
+      <img class="info__pic" src="./eisenhower-matrix.jpg" alt="Eisenhower's Matrix">
+      <figcaption class="info__content-name">Eisenhower's Matrix</figcaption>
     </figure>
-    <a class="more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    <a class="info__more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
-  <main class="main-wrapper">
-    <section id="adding-item">
-      <label class="label-title" for="new-task">Add Item</label>
-      <div class="task-row-wrapper">
-        <input id="new-task" class="task input-area" type="text">
-        <button class="btn">Add</button>
+  <main class="wrapper">
+    <section id="adding-item" class="add-item">
+      <label class="add-item__label" for="new-task">Add Item</label>
+      <div class="add-item__row">
+        <input id="new-task" class="add-item__input task input-area" type="text">
+        <button class="add-item__btn btn">Add</button>
       </div>
     </section>  
-    <section class="to-do">
+    <section class="do-item">
       <h3 class="title">Todo</h3>
-      <nav class="to-do-points">
-        <ul class = "tasks" id="to-do-tasks">
+      <nav>
+        <ul class="tasks" id="to-do-tasks">
           <li class="task-point">
-            <input class="to-do-tasks-input input-area" type="checkbox">
-            <label class="task label-title">Pay Bills</label>
-            <input class="task to-do-tasks-input input-area" type="text">
-            <button class="edit btn">Edit</button>
+            <input class="do-item__input input-area" type="checkbox">
+            <label class="task">Pay Bills</label>
+            <input class="task input-area" type="text">
+            <button class="do-item__btn edit btn">Edit</button>
             <button class="delete-btn btn">
-              <img class="btn-pic" src="./remove.svg" alt="delete button">
+              <img class="do-item__btn-pic btn-pic" src="./remove.svg" alt="delete button">
             </button>
           </li>
           <li class="edit-mode task-point">
-            <input class="input-edit-mode input-area" type="checkbox">
-            <label class="task label-title">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="task input-edit-mode input-area">
+            <input class="edit-mode__input input-area" type="checkbox">
+            <label class="task">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="task edit-mode__input input-area">
             <button class="edit btn">Save</button>
             <button class="delete-btn btn">
               <img class="btn-pic" src="./remove.svg" alt="delete button">
@@ -48,13 +48,13 @@
         </ul>
       </nav>
     </section>
-    <section class="completed">
+    <section class="completed-item">
       <h3 class="title">Completed</h3>
       <nav class="completed-points">
         <ul class = "tasks" id="completed-tasks">
           <li class="task-point">
             <input class="input-area" type="checkbox" checked>
-            <label class="task label-title">See the Doctor</label>
+            <label class="task">See the Doctor</label>
             <input type="text" class="task input-area">
             <button class="edit btn">Edit</button>
             <button class="delete-btn btn">
